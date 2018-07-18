@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE>Sample Web page</TITLE>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ </HEAD>
+ <SCRIPT LANGUAGE="JavaScript">
+ <!--
+	var index = 1;
+	function changeFruit(a){
+		if(a == 2){
+			document.getElementById("title").innerHTML  = "오렌지";
+			document.getElementById("img1").src= "./img/orange.PNG";
+		}
+		else {
+			document.getElementById("title").innerHTML  = "블루베리";
+			document.getElementById("img1").src= "./img/blueberry.PNG";
+		}
+
+		index = a;
+	}
+ //-->
+ </SCRIPT>
+ <BODY bgcolor="#FFFF99">
+ <div style='text-align:center;padding:20px'>
+  <h1 id="title">블루베리</h1>
+  <img id="img1" src="./img/blueberry.PNG" class="img-circle" style="width:50%"><br><br>
+  <button type="button" class="btn btn-primary" onclick="Android.displayToast(index)">효능보기</button> <!-- Android가 이름임 -->
+ </div>
+ </BODY>
+</HTML>
